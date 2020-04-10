@@ -4,9 +4,17 @@
 }
 
 h1 {
-    font-family: "Montserrat ";
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
     font-size: 3.5rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: #8f8f8f;
 }
 
 .container-fluid {
@@ -14,7 +22,7 @@ h1 {
 }
 
 .body {
-    font-family: "Montserrat";
+    font-family: 'Montserrat-Thin', sans-serif;
 }
 
 
@@ -36,7 +44,7 @@ h1 {
 
 .nav-link {
     font-size: 1.2rem;
-    font-family: "Montserrat-Light";
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -49,4 +57,25 @@ h1 {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+}
+
+
+/*FEATURES selection*/
+
+#features {
+    padding: 7% 15% 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
 }
